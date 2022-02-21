@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/CCAR-DFAST/static/js/main.54067605.js",
+    "main.js": "/CCAR-DFAST/static/js/main.c2200432.js",
     "static/media/2021 DFAST Revenue Data Classif.jpg": "/CCAR-DFAST/static/media/2021 DFAST Revenue Data Classif.816b8c9e63a286cc1f2e.jpg",
     "static/media/2021 DFAST Loan Exercise Quarter.jpg": "/CCAR-DFAST/static/media/2021 DFAST Loan Exercise Quarter.5b173e4f474c98804c34.jpg",
     "static/media/2021 DFAST RWA Exercise Quarter.jpg": "/CCAR-DFAST/static/media/2021 DFAST RWA Exercise Quarter.5b173e4f474c98804c34.jpg",
@@ -49,9 +49,9 @@
     "static/media/2021 DFAST RWA Assessment Coverage.jpg": "/CCAR-DFAST/static/media/2021 DFAST RWA Assessment Coverage.f8b0e4f9d0b4169a85d9.jpg",
     "static/media/2021 DFAST RWA Data Classif.jpg": "/CCAR-DFAST/static/media/2021 DFAST RWA Data Classif.0e6fc6392b3904a522c0.jpg",
     "index.html": "/CCAR-DFAST/index.html",
-    "main.54067605.js.map": "/CCAR-DFAST/static/js/main.54067605.js.map"
+    "main.c2200432.js.map": "/CCAR-DFAST/static/js/main.c2200432.js.map"
   },
   "entrypoints": [
-    "static/js/main.54067605.js"
+    "static/js/main.c2200432.js"
   ]
 }
