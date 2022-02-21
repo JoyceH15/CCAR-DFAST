@@ -138,4 +138,4 @@ export const getLink = (item) => {
 
     return link
   }
-<title>SIFI - U.S. D-SIBs (CCAR and DFAST)</title>
+<title>SIFI - U.S. D-SIBs (CCAR and DFAST)<title/>
