@@ -95,9 +95,9 @@ export const NOPF = [
 ]
 
 export const ExerciseName = [
-    ["CCAR 2012", "CCAR 2012", "CCAR 2012"],
-    ["CCAR 2012", "CCAR 2012", "CCAR 2012"],
-    ["CCAR 2012", "CCAR 2012", "CCAR 2012"],
-    ["CCAR 2012", "CCAR 2012", "CCAR 2012"],
-    ["CCAR 2012", "CCAR 2012", "CCAR 2012"],
+    ["DFAST 2021", "DFAST 2021", "DFAST 2021"],
+    ["DFAST 2021", "DFAST 2021", "DFAST 2021"],
+    ["DFAST 2021", "DFAST 2021", "DFAST 2021"],
+    ["DFAST 2021", "DFAST 2021", "DFAST 2021"],
+    ["DFAST 2021", "DFAST 2021", "DFAST 2021"],
 ]
