@@ -10,8 +10,10 @@ import {
   DataClassification,
   EntityID,
   ExerciseQuarter,
-  ACD 
-} from '../data/CcarData2021';
+  ACD,
+  NOPF, 
+  ExerciseName
+} from '../data/DfastData02021';
 
 const Container = styled.div`
   width: 100%;
@@ -187,12 +189,38 @@ const CcarTableRight2021 = ({data}) => {
                       </tr>
                     ))}
                 </tbody>
-              :data === "Assessment Coverage Date" ?
+              :data === "Forecast Horizon" ?
                 <tbody>
                     <tr>
                       <th colSpan={"3"}>{data}</th>
                     </tr>
                     {ACD.map((item) => (
+                      <tr>
+                        {item.map((i) => (
+                          <td>{i}</td>   
+                        ))}
+                      </tr>
+                    ))}
+                </tbody>
+              :data === "Number of Participating Firms" ?
+                <tbody>
+                    <tr>
+                      <th colSpan={"3"}>{data}</th>
+                    </tr>
+                    {NOPF.map((item) => (
+                      <tr>
+                        {item.map((i) => (
+                          <td>{i}</td>   
+                        ))}
+                      </tr>
+                    ))}
+                </tbody>
+              :data === "Exercise Name" ?
+                <tbody>
+                    <tr>
+                      <th colSpan={"3"}>{data}</th>
+                    </tr>
+                    {ExerciseName.map((item) => (
                       <tr>
                         {item.map((i) => (
                           <td>{i}</td>   

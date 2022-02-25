@@ -11,7 +11,7 @@ export const InterimType = [
 ]
 
 export const PeriodDate = [
-    ["06/30/2021", "06/30/2021"]
+    ["12/31/2021", "12/31/2021"]
 ]
 
 export const Unit = [
@@ -40,4 +40,13 @@ export const ExerciseQuarter = [
 
 export const ACD = [
     ["Not Applicable", "03/31/2023"]
+]
+
+
+export const NOPF = [
+    ["1", "1"]
+]
+
+export const ExerciseName = [
+    ["CCAR 2012", "CCAR 2012"],
 ]

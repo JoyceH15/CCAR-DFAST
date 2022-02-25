@@ -10,7 +10,9 @@ import {
   DataClassification,
   EntityID,
   ExerciseQuarter,
-  ACD 
+  ACD, 
+  NOPF,
+  ExerciseName
 } from '../data/DfastData12012';
 
 const Container = styled.div`
@@ -187,12 +189,38 @@ const DfastTableRight12012 = ({data}) => {
                       </tr>
                     ))}
                 </tbody>
-              :data === "Assessment Coverage Date" ?
+              :data === "Forecast Horizon" ?
                 <tbody>
                     <tr>
                       <th colSpan={"2"}>{data}</th>
                     </tr>
                     {ACD.map((item) => (
+                      <tr>
+                        {item.map((i) => (
+                          <td>{i}</td>   
+                        ))}
+                      </tr>
+                    ))}
+                </tbody>
+              :data === "Number of Participating Firms" ?
+                <tbody>
+                    <tr>
+                      <th colSpan={"2"}>{data}</th>
+                    </tr>
+                    {NOPF.map((item) => (
+                      <tr>
+                        {item.map((i) => (
+                          <td>{i}</td>   
+                        ))}
+                      </tr>
+                    ))}
+                </tbody>
+              :data === "Exercise Name" ?
+                <tbody>
+                    <tr>
+                      <th colSpan={"2"}>{data}</th>
+                    </tr>
+                    {ExerciseName.map((item) => (
                       <tr>
                         {item.map((i) => (
                           <td>{i}</td>   

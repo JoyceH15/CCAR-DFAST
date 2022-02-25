@@ -4,7 +4,7 @@ import CcarTableRight from './components/CcarTableRight2012';
 import { getLink } from '../src/Links'
 import DfastTableRight1 from './components/DfastTableRight12012';
 import DfastTableRight2 from './components/DfastTableRight22012'
-import CcarTableRight2021 from './components/CcarTableRight2021';
+import DfastTableRight02021 from './components/DfastTableRight02021';
 import DfastTableRight12021 from './components/DfastTableRight12021';
 import DfastTableRight22021 from './components/DfastTableRight22021';
 import DfastTableRight32021 from './components/DfastTableRight32021';
@@ -201,14 +201,6 @@ const App = () => {
               <select value={date} onChange={e => setDate(e.target.value)}>
                 <option>&nbsp;</option>
                 <option>2012</option>
-                <option>2013</option>
-                <option>2014</option>
-                <option>2015</option>
-                <option>2016</option>
-                <option>2017</option>
-                <option>2018</option>
-                <option>2019</option>
-                <option>2020</option>
                 <option>2021</option>
               </select><br/>
 
@@ -243,7 +235,9 @@ const App = () => {
                   <option value="Data Classification">Data Classification</option>
                   <option value="Entity ID">Entity ID</option>
                   <option value="Exercise Quarter">Exercise Quarter</option>
-                  <option value="Assessment Coverage Date">Assessment Coverage Date</option>
+                  <option value="Forecast Horizon">Forecast Horizon</option>
+                  <option value="Number of Participating Firms">Number of Participating Firms</option>
+                  <option value="Exercise Name">Exercise Name</option>
                 </optgroup>
               </select>
             </ContentColumn>
@@ -328,7 +322,7 @@ const App = () => {
                     </tbody>
                   </CcarTableLeft>
                   {/* CHECK IF THERE IS SELECTED DATA IN METADATA BEFORE SHOWING THE TABLES */}
-                  {metadata && <CcarTableRight2021 data={metadata} />}
+                  {metadata && <DfastTableRight02021 data={metadata} />}
                 </CcarContainer>
 
                 <DfastTableContainerLeft1>
